@@ -16,23 +16,29 @@ Technologies Used
 Python Libraries: Pandas, NumPy, NLTK, Matplotlib, Seaborn, Scikit-Learn, TensorFlow/Keras
 NLP Techniques: Tokenization, stopword removal, lemmatization, feature extraction
 Machine Learning Models: Logistic Regression, Support Vector Machines (SVM), LSTM Neural Networks
+
 Methodology
 Data Collection: Gathered vaccine-related tweets via Twitter API
 Data Preprocessing: Removed URLs, hashtags, special characters, and stopwords
+
+
 Sentiment Analysis Approaches:
 VADER (Lexicon-Based Approach)
 Machine Learning (Logistic Regression, SVM, LSTM Model)
 Visualization: Created heatmaps, bar charts, and word clouds to analyze trends
 Performance Evaluation: Used accuracy, precision, recall, F1-score, and ROC AUC
+
 Results & Insights
 Sentiment Distribution:
 Positive Tweets: 74,154
 Neutral Tweets: 75,490
 Negative Tweets: 29,464
+
 Key Findings:
 Positive sentiment increased over time as more vaccines were distributed.
 Misinformation and vaccine hesitancy were dominant themes in negative sentiment tweets.
 Keywords like "PfizerBioNTech" and "vaccine safety" were commonly discussed.
+
 Files in Repository
 twitter_sent-covid.ipynb – Jupyter Notebook with full analysis
 Covid 19 Report.pdf – Summary report of findings
